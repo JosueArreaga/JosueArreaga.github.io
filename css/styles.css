@@ -1,31 +1,27 @@
-#title {
+#title{
   background-color: #333;
   color: #fff;
   padding: 3% 15%;
   text-align: center;
 }
 
-.project-paragraph-text {
-  font-size: 1.2rem;
-  text-align: left;
-}
 
-h1 {
+h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
-
+ 
 }
 
 
-.navbar-expand-lg .navbar-nav .nav-link {
+.navbar-expand-lg .navbar-nav .nav-link{
   font-family: "Montserrat";
   padding: 0 20px;
 }
 
 
-.navbar-brand {
+.navbar-brand{
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
@@ -44,28 +40,23 @@ h1 {
 }
 
 
-.typewriter {
-  margin: auto
+.typewriter{
+  margin:auto
 }
 
-.typewriter h1:hover {
+.typewriter h1:hover{
   color: #f55050;
 }
 
-/* DEMO-SPECIFIC STYLES */
+ /* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
   color: #fff;
   font-family: monospace;
-  overflow: hidden;
-  /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange;
-  /* The typwriter cursor */
-  white-space: nowrap;
-  /* Keeps the content on a single line */
-  margin: 0 auto;
-  /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em;
-  /* Adjust as needed */
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
   animation:
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
@@ -78,29 +69,15 @@ h1 {
 
 /* The typing effect */
 @keyframes typing {
-  from {
-    width: 0
-  }
-
-  to {
-    width: 100%
-  }
+  from { width: 0 }
+  to { width: 100% }
 }
-
-/* The typewriter cursor effect */
+ /* The typewriter cursor effect */
 @keyframes blink-caret {
-
-  from,
-  to {
-    border-color: transparent
-  }
-
-  50% {
-    border-color: orange
-  }
+  from, to { border-color: transparent }
+  50% { border-color: orange }
 }
-
-.icon-img:hover {
+.icon-img:hover{
   color: #f55050;
 }
 
@@ -110,145 +87,77 @@ h1 {
 /* about */
 
 
-#about {
-  background-color: #fff;
-  color: #333;
-  text-align: center;
-  padding-top: 2%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 0%;
+#about{
+background-color: #fff;
+color: #333;
+text-align: center;
+padding-top: 2%;
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 0%;
 }
 
-.row {
+.row{
   text-align: center;
   padding-bottom: 3%;
   padding-top: 2%;
 }
 
-.about-title:hover {
+.about-title:hover{
   color: #f55050;
 }
 
-.about-item {
+.about-item{
   text-align: left;
-}
+  }  
 
-h3 {
-  color: #f55050;
-  padding-bottom: 5%;
-}
+h3{
+    color: #f55050;
+    padding-bottom: 5%;
+  }
 
-.Josue {
+.Josue{
   padding-top: 5%;
   width: 90%;
   text-align: center;
 }
 
-.about-text {
+.about-text{
   font-size: 1.28vw;
   font-family: 'Montserrat', sans-serif;
 }
 
-@media(min-width:1350px) {
-  .contact-text {
-    font-size: 1.3vw;
-  }
-
-  .project-paragraph-text {
-    font-size: 1.2vw;
-  }
-
-  .lang-paragraph-text {
-    font-size: 1.2vw;
-  }
-
-}
-
-@media(max-width:1300px) {
-  .about-text {
-    font-size: 1.2rem;
-  }
-
-  .project-paragraph-text {
-    font-size: 1.2rem;
-  }
-
-  .lang-paragraph-text {
-    font-size: 1.2rem;
-  }
-
-  .contact-text {
-    font-size: 1.2rem;
+@media(max-width:1300px){
+  .about-text{
+    font-size: 1.5v;
   }
 }
 
-@media (max-width:1050px) {
-  .about-text {
-    font-size: 1.3rem;
-  }
-
-  .project-paragraph-text {
-    font-size: 1.3rem;
-  }
-
-  .lang-paragraph-text {
-    font-size: 1.3rem;
-  }
-
-  .contact-text {
-    font-size: 1.3rem;
+@media (max-width:1050px){
+  .about-text{
+    font-size: 1.7vw;
   }
 }
 
-@media (max-width:900px) {
-  .about-text {
-    font-size: 1.9rem;
-  }
-
-  .project-paragraph-text {
-    font-size: 1.9rem;
-  }
-
-  .lang-paragraph-text {
-    font-size: 1.9rem;
-  }
-
-  .contact-text {
-    font-size: 1.4rem;
+@media (max-width:900px){
+  .about-text{
+    font-size: 1.9vw;
   }
 }
 
-@media (max-width:800px) {
-  .about-text {
-    font-size: 2.1rem;
-  }
-
-  .project-paragraph-text {
-    font-size: 2.1rem;
-  }
-
-  .lang-paragraph-text {
-    font-size: 2.1rem;
-  }
-
-  .contact-text {
-    font-size: 1.5rem;
+@media (max-width:800px){
+  .about-text{
+    font-size: 2.1vw;
   }
 
   .typewriter h1 {
     color: #fff;
     font-family: monospace;
-    overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange;
-    /* The typwriter cursor */
-    white-space: nowrap;
-    /* Keeps the content on a single line */
-    margin: 0 auto;
-    /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em;
-    /* Adjust as needed */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
     font-size: 7vw;
     animation:
       typing 3.5s steps(30, end),
@@ -257,58 +166,15 @@ h3 {
 }
 
 
-@media (max-width:700px) {
-  .about-text {
-    font-size: 4vw;
+@media (max-width:700px){
+  .about-text{
+    font-size: 2.5vw;
   }
-
-  .project-paragraph-text {
-    font-size: 4vw;
-  }
-
-  .lang-paragraph-text {
-    font-size: 4vw;
-  }
-
-  .contact-text {
-    font-size: 3.2vw;
-  }
-
 }
 
-@media (max-width:600px) {
-  .about-text {
-    font-size: 4vw;
-  }
-
-  .project-paragraph-text {
-    font-size: 4vw;
-  }
-
-  .lang-paragraph-text {
-    font-size: 4vw;
-  }
-
-  .contact-text {
+@media (max-width:500px){
+  .about-text{
     font-size: 3.5vw;
-  }
-}
-
-@media (max-width:500px) {
-  .about-text {
-    font-size: 4.2vw;
-  }
-
-  .project-paragraph-text {
-    font-size: 4.2vw;
-  }
-
-  .lang-paragraph-text {
-    font-size: 4.2vw;
-  }
-
-  .contact-text {
-    font-size: 4.2vw;
   }
 }
 
@@ -316,13 +182,13 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 } */
 
-strong:hover {
+strong:hover{
   color: #f55050;
 }
 
 
 
-p {
+p{
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -333,7 +199,7 @@ p {
 
 /* Projects */
 
-#Projects {
+#Projects{
   background-color: #333;
   text-align: center;
   color: white;
@@ -341,62 +207,60 @@ p {
   padding-bottom: 5%;
 }
 
-.project-title {
+.project-title{
   color: #FF6E31;
 }
 
-.carousel-item {
+.carousel-item{
   padding: 0% 15%;
 }
 
-.div-padding {
+.div-padding{
   padding: 3% 3%;
 }
 
 
-.project-h2 {
-  color: #FF6E31;
-  text-align: left;
+.project-h2{
+ color: #FF6E31;
+ text-align: left;
 }
 
-.topic {
+.topic{
   font-size: 2.5rem;
   text-align: center;
-  margin-top: 10%;
 }
 
-.inf {
+.inf{
   padding-bottom: 2%;
 }
 
-.inf:hover,
-.project-h2:hover,
-.project-title:hover {
+.inf:hover, .project-h2:hover, .project-title:hover{
   color: #f55050;
 }
 
-.project-title-center {
+.project-title-center{
   margin: auto;
   font-size: 2.5rem;
-  margin-bottom: 2%;
+  
 }
 
-
-
-
-.pdf {
+.pdf{
   font-size: xx-large;
 }
 
+.project-paragraph-text{
+  font-size: 1.2rem;
+  text-align: left;
+}
 
 /* projects-GameDev */
 
-em {
+em{
   text-align: left;
   font-family: 'Montserrat', sans-serif;
 }
 
-.certified {
+.certified{
   font-family: 'Montserrat', sans-serif;
   color: #f55050;
   font-size: 1.2rem;
@@ -406,11 +270,11 @@ em {
 
 /* Resume */
 
-#Resume {
+#Resume{
   padding: 5% 3%;
 }
 
-.title-resume {
+.title-resume{
   padding-bottom: 3%;
   text-align: center;
 }
@@ -418,62 +282,62 @@ em {
 
 /* Languages */
 
-#languages {
+#languages{
   background-color: #A27B5C;
   color: #fff;
   text-align: center;
   padding: 3% 3%;
   padding-bottom: 0%;
-}
+  }
 
 
-.heading-languages {
-  color: #333;
-}
+  .heading-languages{
+    color: #333;
+  } 
 
-/* .heading-languages:hover{
+  /* .heading-languages:hover{
     color: #fff;
   }  */
+  
+  /* 444941 */
+  .language-box{
+    padding: 3% 0%;
+  }
+  
+  .fab{
+    padding-bottom: 1%;
+  }
 
-/* 444941 */
-.language-box {
-  padding: 3% 0%;
-}
-
-.fab {
-  padding-bottom: 1%;
-}
-
-
-.fab:hover {
-  color: #333;
-}
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  line-height: 1.5;
-  font-weight: 900;
-  color: #333;
-}
-
-
-.droid:hover {
-  color: #03C988;
-}
+  
+  .fab:hover{
+    color: #333;
+  }
+  
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #333;
+  }
 
 
-.lang-div {
-  padding-bottom: 0%;
-  padding-top: 0%;
-}
-
-.lang-paragraph-text {
-  text-align: center;
-}
+  .droid:hover{
+    color: #03C988;
+  }
 
 
-.contact-title {
+  .lang-div{
+    padding-bottom: 0%;
+    padding-top: 0%;
+  }
+
+  .lang-paragraph-text{
+    text-align: center;
+  }
+
+
+.contact-title{
   padding-top: 5%;
   text-align: center;
   color: #FF6E31;
@@ -482,10 +346,10 @@ h2 {
 
 
 /* Contact */
-#contact {
+#contact{
   padding: 5% 15%;
   text-align: center;
-
+  
 }
 
 /* .final-img{
@@ -493,32 +357,33 @@ h2 {
   padding-bottom: 3%;
 } */
 
-.contact-text {
+.contact-text{
   text-align: left;
+  font-size: 1.1rem;
 }
 
-.form-space {
+.form-space{
   padding: 0% 3%;
 }
 
-.text-div {
+.text-div{
   margin: auto;
 }
 
-.contact-hover:hover {
+.contact-hover:hover{
   color: #f55050;
 }
 
-.sub {
+.sub{
   text-align: center;
   margin: 35px 0 20px 0 !important;
 }
 
-.col {
+.col{
   padding-bottom: 1%;
 }
 
-.btn-center {
+.btn-center{
   padding-top: 5%;
   text-align: center;
 }
@@ -526,7 +391,7 @@ h2 {
 
 /* Copyright */
 
-.copyright {
+.copyright{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 1.2rem;
@@ -535,12 +400,12 @@ h2 {
   padding: 5% 3%;
 }
 
-.icon-ft {
-  padding: 2%;
+.icon-ft{
+    padding: 2%;
 }
 
 
-.test {
+.test{
   color: #FFFFFF;
   text-decoration: none;
 }
