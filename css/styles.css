@@ -10,6 +10,18 @@
   text-align: left;
 }
 
+.project-title-center {
+  margin: auto;
+  font-size: 2.5rem;
+  margin-bottom: 2%;
+}
+
+.topic {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 10%;
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3.5rem;
@@ -18,19 +30,16 @@ h1 {
 
 }
 
-
 .navbar-expand-lg .navbar-nav .nav-link {
   font-family: "Montserrat";
   padding: 0 20px;
 }
 
-
 .navbar-brand {
   font-family: "Ubuntu";
-  font-size: 2.0rem; 
+  font-size: 1.7vw; 
   font-weight: bold;
 }
-
 
 /* TEXT */
 #text {
@@ -42,7 +51,6 @@ h1 {
   text-align: center;
   margin: auto;
 }
-
 
 .typewriter {
   margin: auto
@@ -72,10 +80,6 @@ h1 {
 }
 
 
-
-
-
-
 /* The typing effect */
 @keyframes typing {
   from {
@@ -103,8 +107,6 @@ h1 {
 .icon-img:hover {
   color: #f55050;
 }
-
-
 
 
 /* about */
@@ -181,6 +183,10 @@ h3 {
   .contact-text {
     font-size: 1.2rem;
   }
+
+  .navbar-brand{
+    font-size: 3vw;
+  }
 }
 
 @media (max-width:1050px) {
@@ -199,6 +205,7 @@ h3 {
   .contact-text {
     font-size: 1.3rem;
   }
+
 }
 
 @media (max-width:900px) {
@@ -216,6 +223,10 @@ h3 {
 
   .contact-text {
     font-size: 1.4rem;
+  }
+
+  .navbar-brand{
+    font-size: 4vw;
   }
 }
 
@@ -318,25 +329,41 @@ h3 {
   .heading-languages{
     font-size: 10vw;
   }
+
+  .project-title{
+    font-size: 10vw;
+  }
+
+  .topic{
+    font-size: 8vw;
+  }
+
+  .project-h2{
+    font-size: 8vw;
+  }
+
+  .contact-hover{
+    font-size: 10vw;
+  }
+
+  .navbar-brand{
+    font-size: 6.3vw;
+  }
+
+  .about-title{
+    font-size: 10vw;
+  }
+
 }
 
-/* .about-text{
-  font-family: 'Montserrat', sans-serif;
-} */
 
 strong:hover {
   color: #f55050;
 }
 
-
-
 p {
   font-family: 'Montserrat', sans-serif;
 }
-
-
-
-
 
 
 /* Projects */
@@ -367,33 +394,18 @@ p {
   text-align: left;
 }
 
-.topic {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-top: 10%;
-}
 
 .inf {
   padding-bottom: 2%;
 }
 
-.inf:hover,
-.project-h2:hover,
-.project-title:hover {
-  color: #f55050;
-}
-
-.project-title-center {
-  margin: auto;
-  font-size: 2.5rem;
-  margin-bottom: 2%;
-}
-
-
-
 
 .pdf {
   font-size: xx-large;
+}
+
+.topic{
+  text-align: center;
 }
 
 
@@ -439,7 +451,6 @@ em {
   color: #333;
 }
 
-
 .language-box {
   padding: 3% 0%;
 }
@@ -466,7 +477,6 @@ h2 {
   color: #03C988;
 }
 
-
 .lang-div {
   padding-bottom: 0%;
   padding-top: 0%;
@@ -476,11 +486,16 @@ h2 {
   text-align: center;
 }
 
-
 .contact-title {
   padding-top: 5%;
   text-align: center;
   color: #FF6E31;
+}
+
+@media (max-width:500px) {
+.project-h2{
+  text-align: center;
+}
 }
 
 
@@ -492,11 +507,6 @@ h2 {
 
 }
 
-/* .final-img{
-  width: 30%;
-  padding-bottom: 3%;
-} */
-
 .contact-text {
   text-align: left;
 }
@@ -507,10 +517,6 @@ h2 {
 
 .text-div {
   margin: auto;
-}
-
-.contact-hover:hover {
-  color: #f55050;
 }
 
 .sub {
@@ -526,7 +532,6 @@ h2 {
   padding-top: 5%;
   text-align: center;
 }
-
 
 /* Copyright */
 
