@@ -11,7 +11,7 @@
 }
 
 .project-title-center {
-  margin: auto;
+  margin-top: 5%;
   font-size: 2.5rem;
   margin-bottom: 2%;
 }
@@ -311,19 +311,20 @@ h3 {
 
 @media (max-width:500px) {
   .about-text {
-    font-size: 4.5vw;
+    font-size: 4vw;
   }
 
   .project-paragraph-text {
-    font-size: 4.2vw;
+    font-size: 4vw;
   }
 
   .lang-paragraph-text {
-    font-size: 4.2vw;
+    font-size: 4vw;
   }
 
   .contact-text {
-    font-size: 4.2vw;
+    font-size: 4vw;
+     /* 4.2 */
   }
 
   .heading-languages{
