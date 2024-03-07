@@ -1,457 +1,532 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Josue Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
+    <!-- font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontAwesome -->
+    <!-- <script src="https://kit.fontawesome.com/ca47034532.js" crossorigin="anonymous"></script> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
 
-  <meta charset="UTF-8">
-  <title>Josue Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootStrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-  <!-- font -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap"
-    rel="stylesheet">
-  <!-- fontAwesome -->
-  <!-- <script src="https://kit.fontawesome.com/ca47034532.js" crossorigin="anonymous"></script> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-
-  <!-- bootStrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/styles.css">
-
-
-</head>
-
-
-<body>
-  <!-- Title -->
-  <section id="title">
-
-
-    <!-- Nav-Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand">
-        <!-- <i class="fas fa-desktop icon-img"></i> -->
-        Back-End-Dev
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
-          <a class="nav-item nav-link active" href="#title">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#about">About Me</a>
-          <a class="nav-item nav-link" href="#Projects">Projects</a>
-          <a class="nav-item nav-link" href="pdf/JosueArreagaResumeGithub.pdf">Resume</a>
-          <a class="nav-item nav-link" href="#contact">Contact Me</a>
-        </div>
-      </div>
-    </nav>
-
-
-    <!-- Text -->
-    <div id="text">
-      <div class="typewriter">
-        <h1> Josue Arreaga</h1>
-        <h1>Portfolio Website.</h1>
-      </div>
-    </div>
-
-  </section>
-
-
-  <!-- About Me -->
-  <section id="about">
-    <h1 class="about-title">About me</h1>
-    <div class="row">
-      <div class="col-lg-6 col-md-12">
-        <img class="Josue" src="images/character.png">
-      </div>
-
-
-      <div class="about-item col-lg-6 col-md-12 col-sm-12">
-        <h3>Who am I?</h3>
-
-        <p class="about-text">
-          I am a <strong>Senior Computer Science student</strong> at Florida International University(FIU) with
-          intership
-          experience and personal projects in the following areas: Web Development, Mobile Development, Game
-          Development, and AI Engines.
-        </p>
-
-        <p class="about-text">
-          I am someone who genuinely loves to study, learn, and create. <strong>As an intern at Omnics
-            Informatics</strong>,
-          I developed an interface to facilitate user interaction with our software HDX Workbench. It connects directly
-          to a pipeline,
-          allowing users to see their pending projects and download the sample analysis as a compressed tar.gz file.
-          Secondly, it accepts
-          the download tar.gz file and creates a Jtable with the main details of each file, allowing the user to sort,
-          look up, and unzip
-          the desired file to a chosen destination. <strong>Netbeans, Java, Okhttp, GSON, OOP, Data Structures.</strong>
-        </p>
-
-        <p class="about-text">
-          Additionally, I have <strong>research experience</strong> in Singular Value Decomposition for discovering
-          Latent Variable Patterns in Hotel user reviews.
-          I've served as a <strong>Miami Dade College Mathematics Tutor</strong> and as a <strong>Professor's
-            Assistants</strong> in Calculus 3, honing my analytical,
-          problem-solving, communication, and teamwork skills.
-        </p>
-
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Projects -->
-  <section id="Projects">
-
-    <h1 class="project-title">My Projects</h1>
-
-    <div id="carousel-1" class="carousel slide" data-bs-ride="false">
-      <div class="carousel-inner">
-
-
-        <div class="carousel-item active">
-          <div class="row">
-
-            <div class="col-lg-6 project-title-center div-padding">
-              <!-- <i class="fad fa-th fa-4x inf"></i> -->
-              <i class="fas fa-signal fa-4x"></i>
-              <h2 class="project-h2 topic">BlockUdoku Solver</h2>
-
-              <a class="test" href="https://www.youtube.com/watch?v=B4ovtYYFUmM&ab_channel=Easybrain">
-                <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>
-                  Video</button>
-              </a>
-
-              <a class="test" href="https://github.com/JosueArreaga/BlockUdokuEngineSolver">
-                <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-github"></i>
-                  GitHub</button>
-              </a>
-
-
-            </div>
-
-            <div class="col-lg-6 div-padding">
-              <h2 class="project-h2">My Experience</h2>
-              <p class="project-paragraph-text div-padding">
-                You are witnessing is my second Back-end project and my best project by far! An Engine solver for
-                BlockUdoku capable of beating a human in the game.
-              </p>
-
-              <h2 class="project-h2">Project Summary</h2>
-              <p class="project-paragraph-text div-padding">
-                This project utilizes 2D arrays to represent a board, linked lists to define each piece, Clonable
-                interfaces to iterate through possible boards, statistical
-                methods to update our algorithm, and much more! You can find all the information on the read-me file at
-                the GitHub link.
-              </p>
-            </div>
+  <body>
+    <!-- Title -->
+    <section id="title">
+      <!-- Nav-Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand">
+          <!-- <i class="fas fa-desktop icon-img"></i> -->
+          Back-End-Dev
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-item nav-link active" href="#title"
+              >Home <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="#about">About Me</a>
+            <a class="nav-item nav-link" href="#Projects">Projects</a>
+            <a class="nav-item nav-link" href="pdf/Josue_Arreaga_Resume.pdf"
+              >Resume</a
+            >
+            <a class="nav-item nav-link" href="#contact">Contact Me</a>
           </div>
         </div>
+      </nav>
 
-
-
-        <div class="carousel-item">
-          <div class="row">
-
-            <div class="col-lg-6 project-title-center div-padding">
-              <i class="fas fa-chess fa-4x inf"></i>
-              <h2 class="project-h2 topic">Multi-player Chess Game Java</h2>
-
-              <a class="test" href="video/ChessSample.mp4">
-                <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>
-                  Video</button>
-              </a>
-
-              <a class="test" href="https://github.com/JosueArreaga/chessCompleted/tree/master/ChessDraft-master/src">
-                <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-github"></i>
-                  GitHub</button>
-              </a>
-
-
-            </div>
-
-            <div class="col-lg-6 div-padding">
-              <h2 class="project-h2">My Experience</h2>
-              <p class="project-paragraph-text div-padding">
-                I am an avid chess player, chess enthusiast, chess scholar, and at some point, a chess streamer on
-                twitch. I love chess! Its complexity and variations make
-                it the perfect game; this project was meant to be!
-              </p>
-
-              <h2 class="project-h2">Chess Game Summary</h2>
-              <p class="project-paragraph-text div-padding">
-                This project uses 2D arrays to represent the board, Hash Functions for data validation, Stacks to take
-                back plays, Singleton Patterns for data persistence, and
-                many algorithms for each piece and its movements derived through cartesian coordinates.
-                <!-- <p class="certified">This project is 100% built from scratch.</p> -->
-              </p>
-            </div>
-          </div>
+      <!-- Text -->
+      <div id="text">
+        <div class="typewriter">
+          <h1>Josue Arreaga</h1>
+          <h1>Portfolio Website.</h1>
         </div>
-
-
-        <div class="carousel-item">
-          <div class="row">
-
-            <div class="col-lg-6 project-title-center div-padding">
-              <i class="fab fa-unity fa-4x inf droid"></i>
-              <h2 class="project-h2 topic">Game Development C#</h2>
-
-              <a class="test" href="video/GameDevSample.mp4">
-                <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>
-                  Video</button>
-              </a>
-
-              <a class="test" href="https://github.com/JosueArreaga/UnityGameDev">
-                <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-github"></i>
-                  GitHub</button>
-              </a>
-
-            </div>
-
-            <div class="col-lg-6 div-padding">
-              <h2 class="project-h2">My Experience</h2>
-              <p class="project-paragraph-text div-padding">
-                I studied game development for roughly three months. During this time, I completed two courses for Unity
-                with C#. In addition, to numerous tutorials and practice, I also
-                created various unique games, helping develop my coding skills.
-              </p>
-
-              <h2 class="project-h2">Some of My Games</h2>
-              <p class="project-paragraph-text div-padding">
-                I have experience in creating 2-D and 3-D games similar to Mario. This means games where players can
-                beat different levels, collect coins, purchase characters
-                or items, and combat. Most of my games are mobile-friendly and follow your finger touch.
-                <!-- <p class="certified">Udemy certified for 2D and 3D games with C#</p> -->
-              </p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="carousel-item">
-          <div class="row">
-
-            <div class="col-lg-6 project-title-center div-padding">
-              <i class="fab fa-android inf fa-5x droid"></i>
-              <h2 class="project-h2 topic">Android Mobile Development</h2>
-
-              <a class="test" href="video/RecyclerViewerSample.mp4">
-                <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>
-                  Video</button>
-              </a>
-
-              <a class="test" href="https://github.com/JosueArreaga/RecyclerViewer">
-                <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-github"></i>
-                  GitHub</button>
-              </a>
-
-            </div>
-
-            <div class="col-lg-6 div-padding">
-              <h2 class="project-h2">My Experience</h2>
-              <p class="project-paragraph-text div-padding">
-                I studied mobile development for roughly three months as part of the Google Career Certificate program.
-                In this program, I learned the basics of Android Studio for
-                mobile development and the Kotlin language.
-              </p>
-
-              <h2 class="project-h2">Applications</h2>
-              <p class="project-paragraph-text div-padding">
-                Some of the applications I created in Android Studio were Tipping apps, Calculators, Dice Rollers, Quiz
-                Apps (similar to Kahoots), and lots of practice with view
-                binding to allow for applications with scrollable features identical to Instagram.
-              </p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="carousel-item">
-          <div class="row">
-
-            <div class="col-lg-6 project-title-center div-padding">
-              <i class="fas fa-infinity fa-4x inf"></i>
-              <h2 class="project-h2 topic">Methods to Facilitate Calculus</h2>
-
-              <a class="test" href="pdf/Limits Part 1.pdf">
-                <button type="button" class="btn btn-outline-light btn-lg download-button">Limits</button>
-              </a>
-
-              <a class="test" href="pdf/Derivatives Part 1.pdf">
-                <button type="button" class="btn btn-outline-light btn-lg download-button">Derivatives</button>
-              </a>
-
-              <a class="test" href="pdf/Definition of Integrals Part 1.pdf">
-                <button type="button" class="btn btn-outline-light btn-lg download-button">Integrals</button>
-              </a>
-
-            </div>
-
-            <div class="col-lg-6 div-padding">
-              <h2 class="project-h2">Premise</h2>
-              <p class="project-paragraph-text div-padding">
-                Nationwide between 25% to 30% of students who take Calculus for the first time fail. Even failing rates
-                of 40% in a class are not unusual.
-                Hence, is there a better way to learn Calculus? Could our books be wrong, not conceptually but on how
-                they unfold? Could we simplify the
-                data into a set of concepts and reinforce them to facilitate Calculus?
-              </p>
-
-              <h2 class="project-h2">My Contribution</h2>
-              <p class="project-paragraph-text div-padding">
-                For this project, I decompressed the idea of limits, derivatives, and integrals into three separate
-                booklets to help aid the conceptual learning of Calculus one.
-                These booklets are now available for students at Miami Dade College at no cost!
-              </p>
-            </div>
-
-          </div>
-        </div>
-
-
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-1" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carousel-1" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+    </section>
 
-  </section>
-
-
-  <!--Languages And Certifications-->
-  <section id="languages">
-
-    <h1 class="heading-languages">Programming Languages</h1>
-
-    <div class="row lang-div">
-
-      <div class="language-box col-lg-2 col-md-12">
-        <i class="fab fa-java fa-5x"></i>
-        <h2>Java</h2>
-        <p class="lang-paragraph-text">This is my main language</p>
-      </div>
-
-      <div class="language-box col-lg-2 col-md-12">
-        <i class="fab fa-unity fa-5x"></i>
-        <h2>C# & C++</h2>
-        <p class="lang-paragraph-text">
-          I learned C# and C++ to create games in Unity
-        </p>
-      </div>
-
-      <div class="language-box col-lg-4">
-        <i class="fab fa-css3-alt fa-5x"></i>
-        <i class="fab fa-html5 fa-5x"></i>
-        <i class="fab fa-js-square fa-5x"></i>
-        <h2>CSS HTML JS</h2>
-
-        <p class="lang-paragraph-text">
-          I used CSS HTML and JavaScript to build this website
-        </p>
-      </div>
-
-      <div class="language-box col-lg-2 col-md-12">
-        <i class="fab fa-android fa-5x"></i>
-        <h2>Kotlin</h2>
-        <p class="lang-paragraph-text">
-          I use Kotlin to develop mobile apps in Android Studio
-        </p>
-      </div>
-
-      <div class="language-box col-lg-2 col-md-12">
-        <i class="fab fa-python fa-5x"></i>
-        <h2>Python</h2>
-        <p class="lang-paragraph-text">
-          I am self-taught in Python
-        </p>
-      </div>
-    </div>
-
-  </section>
-
-
-
-
-
-
-
-  <section id="contact">
-
-    <h1 class="contact-hover">
-      Contact Me
-    </h1>
-
-    <div class="container">
-
+    <!-- About Me -->
+    <section id="about">
+      <h1 class="about-title">About me</h1>
       <div class="row">
-
-
-        <div class="col-lg-6 text-div form-space ">
-          <i class="fas fa-handshake fa-5x"></i>
-          <br>
-          <br>
-          <p class="contact-text">I hope my website has convinced you. I am dying to work with you, intern, or listen to
-            any opportunities available. If you find my skills valuable, please reach out to me. I am currently looking
-            for an internship in Summer 2023! </p>
+        <div class="col-lg-6 col-md-12">
+          <img class="Josue" src="images/character.png" />
         </div>
 
+        <div class="about-item col-lg-6 col-md-12 col-sm-12">
+          <h3>Who am I?</h3>
 
-        <div class="col-lg-6 form-space">
+          <p class="about-text">
+            I am a <strong>Senior Computer Science student</strong> at Florida
+            International University(FIU). I currently work as a Software
+            Developer Researcher at FIU. We are partnered with Miami Children's
+            Hospital and are developing a Mobile Application to evaluate,
+            assist, and measure the progression of children with ADHD. I have
+            also worked as a Software Engineering Intern at Omnics Informatics
+            (Summer 2023) and have multiple personal projects in the following
+            areas: Web Development and Mobile Development, Game Development, and
+            AI Engines.
+          </p>
 
-          <h2 class="sub contact-hover">Form</h2>
+          <p class="about-text">
+            I am someone who genuinely loves to study, learn, and create.
+            <strong>As an intern at Omnics Informatics</strong>, I developed an
+            interface to facilitate user interaction with our software HDX
+            Workbench. It connects directly to a pipeline, allowing users to see
+            their pending projects and download the sample analysis as a
+            compressed tar.gz file. Secondly, it accepts the download tar.gz
+            file and creates a Jtable with the main details of each file,
+            allowing the user to sort, look up, and unzip the desired file to a
+            chosen destination.
+            <strong>Netbeans, Java, Okhttp, GSON, OOP, Data Structures.</strong>
+          </p>
 
-          <form target="_blank" action="https://formsubmit.co/josue.arreaga001@gmail.com" method="POST">
-            <div class="form-group">
-              <div class="form-row">
-                <div class="col">
-                  <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-                </div>
-                <div class="col">
-                  <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-                </div>
+          <p class="about-text">
+            Additionally, I have <strong>research experience</strong> in
+            Singular Value Decomposition for discovering Latent Variable
+            Patterns in Hotel user reviews. I've served as a
+            <strong>Miami Dade College Mathematics Tutor</strong> and as a
+            <strong>Professor's Assistants</strong> in Calculus 3, honing my
+            analytical, problem-solving, communication, and teamwork skills.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="Projects">
+      <h1 class="project-title">My Projects</h1>
+
+      <div id="carousel-1" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-6 project-title-center div-padding">
+                <!-- <i class="fad fa-th fa-4x inf"></i> -->
+                <i class="fas fa-signal fa-4x"></i>
+                <h2 class="project-h2 topic">BlockUdoku Solver</h2>
+
+                <a
+                  class="test"
+                  href="https://www.youtube.com/watch?v=B4ovtYYFUmM&ab_channel=Easybrain"
+                >
+                  <button
+                    type="button"
+                    class="btn btn-dark btn-lg download-button"
+                  >
+                    <i class="fab fa-apple"></i> Video
+                  </button>
+                </a>
+
+                <a
+                  class="test"
+                  href="https://github.com/JosueArreaga/BlockUdokuEngineSolver"
+                >
+                  <button
+                    type="button"
+                    class="btn btn-outline-light btn-lg download-button"
+                  >
+                    <i class="fab fa-github"></i> GitHub
+                  </button>
+                </a>
+              </div>
+
+              <div class="col-lg-6 div-padding">
+                <h2 class="project-h2">My Experience</h2>
+                <p class="project-paragraph-text div-padding">
+                  You are witnessing is my second Back-end project and my best
+                  project by far! An Engine solver for BlockUdoku capable of
+                  beating a human in the game.
+                </p>
+
+                <h2 class="project-h2">Project Summary</h2>
+                <p class="project-paragraph-text div-padding">
+                  This project utilizes 2D arrays to represent a board, linked
+                  lists to define each piece, Clonable interfaces to iterate
+                  through possible boards, statistical methods to update our
+                  algorithm, and much more! You can find all the information on
+                  the read-me file at the GitHub link.
+                </p>
               </div>
             </div>
-            <div class="form-group">
-              <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-6 project-title-center div-padding">
+                <i class="fas fa-chess fa-4x inf"></i>
+                <h2 class="project-h2 topic">Multi-player Chess Game Java</h2>
+
+                <a class="test" href="video/ChessSample.mp4">
+                  <button
+                    type="button"
+                    class="btn btn-dark btn-lg download-button"
+                  >
+                    <i class="fab fa-apple"></i> Video
+                  </button>
+                </a>
+
+                <a
+                  class="test"
+                  href="https://github.com/JosueArreaga/chessCompleted/tree/master/ChessDraft-master/src"
+                >
+                  <button
+                    type="button"
+                    class="btn btn-outline-light btn-lg download-button"
+                  >
+                    <i class="fab fa-github"></i> GitHub
+                  </button>
+                </a>
+              </div>
+
+              <div class="col-lg-6 div-padding">
+                <h2 class="project-h2">My Experience</h2>
+                <p class="project-paragraph-text div-padding">
+                  I am an avid chess player, chess enthusiast, chess scholar,
+                  and at some point, a chess streamer on twitch. I love chess!
+                  Its complexity and variations make it the perfect game; this
+                  project was meant to be!
+                </p>
+
+                <h2 class="project-h2">Chess Game Summary</h2>
+                <p class="project-paragraph-text div-padding">
+                  This project uses 2D arrays to represent the board, Hash
+                  Functions for data validation, Stacks to take back plays,
+                  Singleton Patterns for data persistence, and many algorithms
+                  for each piece and its movements derived through cartesian
+                  coordinates.
+                  <!-- <p class="certified">This project is 100% built from scratch.</p> -->
+                </p>
+              </div>
             </div>
+          </div>
 
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-6 project-title-center div-padding">
+                <i class="fab fa-unity fa-4x inf droid"></i>
+                <h2 class="project-h2 topic">Game Development C#</h2>
 
-            <div class="btn-center">
-              <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+                <a class="test" href="video/GameDevSample.mp4">
+                  <button
+                    type="button"
+                    class="btn btn-dark btn-lg download-button"
+                  >
+                    <i class="fab fa-apple"></i> Video
+                  </button>
+                </a>
+
+                <a
+                  class="test"
+                  href="https://github.com/JosueArreaga/UnityGameDev"
+                >
+                  <button
+                    type="button"
+                    class="btn btn-outline-light btn-lg download-button"
+                  >
+                    <i class="fab fa-github"></i> GitHub
+                  </button>
+                </a>
+              </div>
+
+              <div class="col-lg-6 div-padding">
+                <h2 class="project-h2">My Experience</h2>
+                <p class="project-paragraph-text div-padding">
+                  I studied game development for roughly three months. During
+                  this time, I completed two courses for Unity with C#. In
+                  addition, to numerous tutorials and practice, I also created
+                  various unique games, helping develop my coding skills.
+                </p>
+
+                <h2 class="project-h2">Some of My Games</h2>
+                <p class="project-paragraph-text div-padding">
+                  I have experience in creating 2-D and 3-D games similar to
+                  Mario. This means games where players can beat different
+                  levels, collect coins, purchase characters or items, and
+                  combat. Most of my games are mobile-friendly and follow your
+                  finger touch.
+                  <!-- <p class="certified">Udemy certified for 2D and 3D games with C#</p> -->
+                </p>
+              </div>
             </div>
+          </div>
 
-          </form>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-6 project-title-center div-padding">
+                <i class="fab fa-android inf fa-5x droid"></i>
+                <h2 class="project-h2 topic">Android Mobile Development</h2>
+
+                <a class="test" href="video/RecyclerViewerSample.mp4">
+                  <button
+                    type="button"
+                    class="btn btn-dark btn-lg download-button"
+                  >
+                    <i class="fab fa-apple"></i> Video
+                  </button>
+                </a>
+
+                <a
+                  class="test"
+                  href="https://github.com/JosueArreaga/RecyclerViewer"
+                >
+                  <button
+                    type="button"
+                    class="btn btn-outline-light btn-lg download-button"
+                  >
+                    <i class="fab fa-github"></i> GitHub
+                  </button>
+                </a>
+              </div>
+
+              <div class="col-lg-6 div-padding">
+                <h2 class="project-h2">My Experience</h2>
+                <p class="project-paragraph-text div-padding">
+                  I currently work as a Mobile Research Developer at Florida
+                  International University. At my job, I code in React-Native
+                  with Expo Go. I also studied mobile development for roughly
+                  three months as part of the Google Career Certificate program.
+                  In this program, I learned how to use Android Studio for
+                  mobile development and the Kotlin language.
+                </p>
+
+                <h2 class="project-h2">Applications</h2>
+                <p class="project-paragraph-text div-padding">
+                  Some of the applications I created in Android Studio were
+                  Tipping apps, Calculators, Dice Rollers, Quiz Apps (similar to
+                  Kahoots), and lots of practice with view binding to allow for
+                  applications with scrollable features identical to Instagram.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-6 project-title-center div-padding">
+                <i class="fas fa-infinity fa-4x inf"></i>
+                <h2 class="project-h2 topic">Methods to Facilitate Calculus</h2>
+
+                <a class="test" href="pdf/Limits Part 1.pdf">
+                  <button
+                    type="button"
+                    class="btn btn-outline-light btn-lg download-button"
+                  >
+                    Limits
+                  </button>
+                </a>
+
+                <a class="test" href="pdf/Derivatives Part 1.pdf">
+                  <button
+                    type="button"
+                    class="btn btn-outline-light btn-lg download-button"
+                  >
+                    Derivatives
+                  </button>
+                </a>
+
+                <a class="test" href="pdf/Definition of Integrals Part 1.pdf">
+                  <button
+                    type="button"
+                    class="btn btn-outline-light btn-lg download-button"
+                  >
+                    Integrals
+                  </button>
+                </a>
+              </div>
+
+              <div class="col-lg-6 div-padding">
+                <h2 class="project-h2">Premise</h2>
+                <p class="project-paragraph-text div-padding">
+                  Nationwide between 25% to 30% of students who take Calculus
+                  for the first time fail. Even failing rates of 40% in a class
+                  are not unusual. Hence, is there a better way to learn
+                  Calculus? Could our books be wrong, not conceptually but on
+                  how they unfold? Could we simplify the data into a set of
+                  concepts and reinforce them to facilitate Calculus?
+                </p>
+
+                <h2 class="project-h2">My Contribution</h2>
+                <p class="project-paragraph-text div-padding">
+                  For this project, I decompressed the idea of limits,
+                  derivatives, and integrals into three separate booklets to
+                  help aid the conceptual learning of Calculus one. These
+                  booklets are now available for students at Miami Dade College
+                  at no cost!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel-1"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel-1"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!--Languages And Certifications-->
+    <section id="languages">
+      <h1 class="heading-languages">Programming Languages</h1>
+
+      <div class="row lang-div">
+        <div class="language-box col-lg-2 col-md-12">
+          <i class="fab fa-java fa-5x"></i>
+          <h2>Java</h2>
+          <p class="lang-paragraph-text">This is my main language</p>
+        </div>
+
+        <div class="language-box col-lg-2 col-md-12">
+          <i class="fab fa-unity fa-5x"></i>
+          <h2>C# & C++</h2>
+          <p class="lang-paragraph-text">
+            I learned C# and C++ to create games in Unity
+          </p>
+        </div>
+
+        <div class="language-box col-lg-4">
+          <i class="fab fa-css3-alt fa-5x"></i>
+          <i class="fab fa-html5 fa-5x"></i>
+          <i class="fab fa-js-square fa-5x"></i>
+          <h2>CSS HTML JS</h2>
+
+          <p class="lang-paragraph-text">
+            I used CSS HTML and JavaScript to build this website
+          </p>
+        </div>
+
+        <div class="language-box col-lg-2 col-md-12">
+          <i class="fab fa-android fa-5x"></i>
+          <h2>Kotlin</h2>
+          <p class="lang-paragraph-text">
+            I use React-Native && Kotlin to develop mobile apps in Android
+            Studio
+          </p>
+        </div>
+
+        <div class="language-box col-lg-2 col-md-12">
+          <i class="fab fa-python fa-5x"></i>
+          <h2>Python</h2>
+          <p class="lang-paragraph-text">I am self-taught in Python</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1 class="contact-hover">Contact Me</h1>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-div form-space">
+            <i class="fas fa-handshake fa-5x"></i>
+            <br />
+            <br />
+            <p class="contact-text">
+              I hope my website has convinced you. I am dying to work with you,
+              intern, or listen to any opportunities available. If you find my
+              skills valuable, please reach out to me. I will graduate with a
+              Bachelor of Computer Science this summer, on July 27th, 2024
+            </p>
+          </div>
+
+          <div class="col-lg-6 form-space">
+            <h2 class="sub contact-hover">Form</h2>
+
+            <form
+              target="_blank"
+              action="https://formsubmit.co/josue.arreaga001@gmail.com"
+              method="POST"
+            >
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      placeholder="Full Name"
+                      required
+                    />
+                  </div>
+                  <div class="col">
+                    <input
+                      type="email"
+                      name="email"
+                      class="form-control"
+                      placeholder="Email Address"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea
+                  placeholder="Your Message"
+                  class="form-control"
+                  name="message"
+                  rows="10"
+                  required
+                ></textarea>
+              </div>
+
+              <div class="btn-center">
+                <button type="submit" class="btn btn-lg btn-dark btn-block">
+                  Submit Form
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
 
+      <p class="copyright">© All rights reserved</p>
+    </section>
 
-    </div>
-
-    <p class="copyright">
-      © All rights reserved
-    </p>
-
-  </section>
-
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
